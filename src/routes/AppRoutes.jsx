@@ -79,7 +79,13 @@ const AppRoutes = () => {
                 }
             ]
         }
-    ])
+    ],
+    {
+        
+    basename: "/SkyMart",
+  
+    }
+)
   return <RouterProvider router={router}/>
 }
 
